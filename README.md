@@ -1,9 +1,19 @@
-# js-kata-starter
+# rectangles-intersection
 
-Starter project for kata (Node, TypeScript, Jest)
+Given two rectangles described by their coordinates, compute the coordinates of their intersection, if any. E.g.:
 
-## Getting started
+```
 
-- **Fork**, then clone the repository
-- Install dependencies
-- Start developing (`npm test`)
+    * * * * * * * * * * * * * * * * *
+    *                               *
+    *                               *
+    *                               *
+    *                               *
+    *                     • • • • • • * * * * * *
+    *                     •         •           *
+    *                     •         •           *
+    * * * * * * * * * * * • • • • • •           *
+                          *                     *
+                          * * * * * * * * * * * *
+
+```
